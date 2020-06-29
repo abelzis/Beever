@@ -11,6 +11,8 @@ namespace Beever {
 
 		void Run();
 	};
+
+	Application* CreateApplication();
 }
 
 

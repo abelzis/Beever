@@ -14,10 +14,7 @@ public:
 	}
 };
 
-int main()
+Beever::Application* Beever::CreateApplication()
 {
-	Sandbox* sandbox = new Sandbox();
-	sandbox->Run();
-
-	delete sandbox;
+	return new Sandbox();
 }
